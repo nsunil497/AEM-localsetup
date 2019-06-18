@@ -1,0 +1,19 @@
+<assembly>
+	<dependencySets>
+		<dependencySet>
+			<unpack>false</unpack>
+			<scope>runtime</scope>
+			<outputDirectory></outputDirectory>
+		</dependencySet>
+		<fileSets>  
+			<fileSet>
+				<directory>src/main/command</directory>
+				<outputDirectory></outputDirectory>
+				<includes>
+					<include>*</include>
+				</includes>
+				<fileMode>0755</fileMode>
+			</fileSet>
+		</fileSets>  
+	</dependencySets>
+</assembly>
